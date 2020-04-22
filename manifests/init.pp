@@ -7,8 +7,8 @@
 #   'Message Of The Day' file.
 #
 # @param template
-#   Template to use. Only set this, if your platform is not supported or you
-#   know, what you're doing.
+#   Template file to use. Only set this, if your platform is not supported or
+#   you know, what you're doing.
 #
 # @example
 #   class { 'motd': }
