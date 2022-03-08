@@ -17,3 +17,4 @@ jobs:
     uses: voxpupuli/gha-puppet/.github/workflows/basic.yml@v1
     with:
       rubocop: false
+      cache-version: '1'
