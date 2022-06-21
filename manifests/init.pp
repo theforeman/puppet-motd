@@ -13,12 +13,11 @@
 # @example
 #   class { 'motd': }
 #
-class motd(
+class motd (
   Enum['present', 'absent'] $ensure = 'present',
   Stdlib::Absolutepath $config_file = '/etc/motd',
   String[1] $template = 'motd/motd.erb',
 ) {
-
   if $ensure == 'present' {
     $ensure_real = 'file'
   } else {
