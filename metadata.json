@@ -1,6 +1,6 @@
 {
   "name": "theforeman-motd",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "theforeman",
   "summary": "Foreman infra motd",
   "license": "GPL-3.0+",
