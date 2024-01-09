@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.0](https://github.com/theforeman/puppet-motd/tree/2.0.0) (2024-01-09)
+
+[Full Changelog](https://github.com/theforeman/puppet-motd/compare/1.0.0...2.0.0)
+
+**Breaking changes:**
+
+- Drop Puppet 6 support [\#16](https://github.com/theforeman/puppet-motd/pull/16) ([ekohl](https://github.com/ekohl))
+
+**Implemented enhancements:**
+
+- Allow puppetlabs/stdlib 9.x [\#17](https://github.com/theforeman/puppet-motd/pull/17) ([ekohl](https://github.com/ekohl))
+
 ## [1.0.0](https://github.com/theforeman/puppet-motd/tree/1.0.0) (2023-04-11)
 
 [Full Changelog](https://github.com/theforeman/puppet-motd/compare/0.1.0...1.0.0)
@@ -13,13 +25,13 @@
 - Update to voxpupuli-test 5 [\#11](https://github.com/theforeman/puppet-motd/pull/11) ([ekohl](https://github.com/ekohl))
 - add support for Ubuntu 20.04 and Debian 11 [\#10](https://github.com/theforeman/puppet-motd/pull/10) ([evgeni](https://github.com/evgeni))
 - Allow puppetlabs/stdlib 8.x [\#6](https://github.com/theforeman/puppet-motd/pull/6) ([ekohl](https://github.com/ekohl))
+- Support Puppet 7 [\#4](https://github.com/theforeman/puppet-motd/pull/4) ([ekohl](https://github.com/ekohl))
 
 **Merged pull requests:**
 
 - Add a basic acceptance test [\#13](https://github.com/theforeman/puppet-motd/pull/13) ([ekohl](https://github.com/ekohl))
 - Increase the cache version [\#8](https://github.com/theforeman/puppet-motd/pull/8) ([ekohl](https://github.com/ekohl))
 - Use gha-puppet's reusable workflows [\#5](https://github.com/theforeman/puppet-motd/pull/5) ([ekohl](https://github.com/ekohl))
-- Support Puppet 7 [\#4](https://github.com/theforeman/puppet-motd/pull/4) ([ekohl](https://github.com/ekohl))
 
 ## [0.1.0](https://github.com/theforeman/puppet-motd/tree/0.1.0) (2020-04-22)
 
