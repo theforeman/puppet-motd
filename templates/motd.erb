@@ -10,14 +10,12 @@ LOG OFF IMMEDIATELY if you do not agree to the conditions stated in this
 warning.
 *******************************************************************************
 
-<%= @operatingsystem %> <%= @operatingsystemrelease %> <%= @architecture %>
+<%= @facts['os']['name'] %> <%= @facts['os']['release']['full'] %> <%= @facts['os']['architecture'] %>
 
-FQDN:      <%= @fqdn %> (<%= @ipaddress %>)
-<% if has_variable?("processor0") then -%>
-Processor: <%= @processorcount %>x <%= @processor0 %>
-<% end -%>
-Kernel:    <%= @kernelrelease %>
-Memory:    <%= @memorysize %>
+FQDN:      <%= @facts['networking']['fqdn'] %> (<%= @facts['networking']['ipaddress'] %>)
+Processor: <%= @facts['processors']['count'] %>x <%= @facts['processors']['models'][0] %>
+Kernel:    <%= @facts['kernelrelease'] %>
+Memory:    <%= @facts['memory']['system']['total'] %>
 
 <% if has_variable?("owner") then -%>
 Owner: <%= @owner -%>

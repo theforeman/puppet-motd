@@ -6,6 +6,8 @@ describe 'basic usage' do
   end
 
   specify do
-    expect(file('/etc/motd')).to have_attributes(content: /Foreman project/)
+    expect(file('/etc/motd')).to be_file
+      .and(have_attributes(content: /Foreman project/))
+      .and(have_attributes(content: /FQDN:\s+#{host_inventory['fqdn']}/))
   end
 end
