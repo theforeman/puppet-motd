@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.1.0](https://github.com/theforeman/puppet-motd/tree/2.1.0) (2025-10-07)
+
+[Full Changelog](https://github.com/theforeman/puppet-motd/compare/2.0.0...2.1.0)
+
+**Implemented enhancements:**
+
+- Add AlmaLinux 8 & 9 support [\#20](https://github.com/theforeman/puppet-motd/pull/20) ([archanaserver](https://github.com/archanaserver))
+- Add Puppet 8 support [\#19](https://github.com/theforeman/puppet-motd/pull/19) ([evgeni](https://github.com/evgeni))
+
 ## [2.0.0](https://github.com/theforeman/puppet-motd/tree/2.0.0) (2024-01-09)
 
 [Full Changelog](https://github.com/theforeman/puppet-motd/compare/1.0.0...2.0.0)
