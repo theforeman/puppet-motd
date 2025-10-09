@@ -12,7 +12,7 @@ warning.
 
 <%= @facts['os']['name'] %> <%= @facts['os']['release']['full'] %> <%= @facts['os']['architecture'] %>
 
-FQDN:      <%= @facts['networking']['fqdn'] %> (<%= @facts['networking']['ipaddress'] %>)
+FQDN:      <%= @facts['networking']['fqdn'] %> (<%= @facts['networking']['ip'] %>)
 Processor: <%= @facts['processors']['count'] %>x <%= @facts['processors']['models'][0] %>
 Kernel:    <%= @facts['kernelrelease'] %>
 Memory:    <%= @facts['memory']['system']['total'] %>
