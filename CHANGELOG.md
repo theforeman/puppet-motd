@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.1](https://github.com/theforeman/puppet-motd/tree/2.1.1) (2025-10-09)
+
+[Full Changelog](https://github.com/theforeman/puppet-motd/compare/2.1.0...2.1.1)
+
+**Fixed bugs:**
+
+- use `ip` not `ipaddress` as networking fact [\#24](https://github.com/theforeman/puppet-motd/pull/24) ([evgeni](https://github.com/evgeni))
+
 ## [2.1.0](https://github.com/theforeman/puppet-motd/tree/2.1.0) (2025-10-07)
 
 [Full Changelog](https://github.com/theforeman/puppet-motd/compare/2.0.0...2.1.0)
