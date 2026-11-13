@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.0.0](https://github.com/theforeman/puppet-motd/tree/3.0.0) (2026-11-13)
+
+[Full Changelog](https://github.com/theforeman/puppet-motd/compare/2.1.1...3.0.0)
+
+**Breaking changes:**
+
+- Drop EOL Debian 10, 11, Ubuntu 18.04, 20.04 [\#32](https://github.com/theforeman/puppet-motd/pull/32) ([evgeni](https://github.com/evgeni))
+- Switch from puppet to OpenVox 8 [\#28](https://github.com/theforeman/puppet-motd/pull/28) ([bastelfreak](https://github.com/bastelfreak))
+
+**Implemented enhancements:**
+
+- Add support for Debian 12, 13, Ubuntu 22.04, 24.04, 26.04 [\#31](https://github.com/theforeman/puppet-motd/pull/31) ([evgeni](https://github.com/evgeni))
+- Allow puppetlabs/stdlib 10.x [\#29](https://github.com/theforeman/puppet-motd/pull/29) ([evgeni](https://github.com/evgeni))
+- Add EL 10 support [\#26](https://github.com/theforeman/puppet-motd/pull/26) ([ekohl](https://github.com/ekohl))
+
 ## [2.1.1](https://github.com/theforeman/puppet-motd/tree/2.1.1) (2025-10-09)
 
 [Full Changelog](https://github.com/theforeman/puppet-motd/compare/2.1.0...2.1.1)
